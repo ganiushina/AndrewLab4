@@ -10,12 +10,8 @@ public class Main {
         Chart chart = new Chart(x);
         ChartView chartView = new ChartView();
         ChartController chartController = new ChartController(chart, chartView);
-
         chartController.updateView();
-
-
         chartController.setX(7.0);
         chartController.updateView();
-
     }
 }

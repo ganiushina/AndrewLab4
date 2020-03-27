@@ -3,9 +3,6 @@ package controller;
 import model.Chart;
 import view.ChartView;
 
-import java.util.Observable;
-import java.util.Observer;
-
 public class ChartController  {
 
     private Chart model;
